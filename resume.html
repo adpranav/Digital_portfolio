@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adibatla Datta Pranav - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 40px;
+            margin-bottom: 20px;
+        }
+
+        .details {
+            flex-grow: 1;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .location {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .emoji {
+            font-size: 24px;
+            margin-right: 5px;
+        }
+
+        .links {
+            margin-bottom: 20px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .skills-heading {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        .skills li {
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            background-color: #313131;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .section-heading {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+        }
+
+        .projects ol {
+            padding-left: 20px;
+        }
+
+        .projects li {
+            margin-bottom: 20px;
+        }
+
+        .projects h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .projects p {
+            margin-bottom: 5px;
+        }
+
+        .projects a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Additional Styling */
+        .heading-emoji {
+            margin-right: 10px;
+        }
+
+        .section-heading {
+            color: #ffffff;
+            font-size: 32px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+
+        .projects h3 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .projects .emoji {
+            margin-right: 10px;
+        }
+
+        .projects p {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .projects a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .projects a:hover {
+            color: #ffa500;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            .image {
+                width: 150px;
+                height: 150px;
+                margin-right: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+                margin-bottom: 5px;
+            }
+
+            .location {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+
+            .emoji {
+                font-size: 20px;
+            }
+
+            .section-heading {
+                font-size: 24px;
+                margin-top: 40px;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="image.png" alt="Adibatla Datta Pranav" class="image">
+        <div class="details">
+            <h1>Adibatla Datta Pranav</h1>
+            <p class="location"><span class="emoji">&#x1F3E0;</span> Visakhapatnam, Andhra Pradesh</p>
+            <div class="links">
+                <a href="linkedin.com/in/adpranav" target="_blank"><span class="emoji">&#x1F4E1;</span> LinkedIn</a>
+                <a href="github.com/adpranav" target="_blank"><span class="emoji">&#x1F5A5;</span> GitHub</a>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="section-heading"><span class="heading-emoji">&#x1F680;</span> Technical Skills</h2>
+            <div class="skills">
+                <ul>
+                    <li>Java</li>
+                    <li>Selenium</li>
+                    <li>Python (pandas, NumPy, scikit-learn, TensorFlow)</li>
+                    <li>SQL</li>
+                    <li>Tableau</li>
+                    <li>Machine Learning</li>
+                    <li>Deep Learning</li>
+                    <li>Natural Language Processing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="section-heading"><span class="heading-emoji">&#x1F4C8;</span> Certifications</h2>
+            <ul>
+                <li>Google Data Analytics Professional Certificate</li>
+                <li>IBM Artificial Intelligence Analyst Certificate</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2 class="section-heading"><span class="heading-emoji">&#x1F4D6;</span> Academic Projects</h2>
+            <div class="projects">
+                <ol>
+                    <li>
+                        <h3><span class="emoji">&#x1F4E7;</span> Voice EMail (Aug 22 - Oct 22)</h3>
+                        <p>Description: Created python-based application using Tkinter that enables users to send Email through voice commands and corrects grammatical and punctuation errors automatically.</p>
+                        <p>Technology: Python, Tkinter, Speech Recognition, Natural Language Processing (NLP), Machine Learning</p>
+                        <p>Link and Results: <a href="https://github.com/adpranav/Voice-operated-e-mail.git" target="_blank">GitHub</a></p>
+                    </li>
+                    <li>
+                        <h3><span class="emoji">&#x1F3BE;</span> The Tennis Saga (Jan 23 - March 23)</h3>
+                        <p>Description: A website for Tennis fans created using Streamlit that displays player profile, player comparisons, rivalries, and performance on various tennis surfaces.</p>
+                        <p>Technology: Tableau, Python (NumPy, pandas, matplotlib, seaborn), SQL</p>
+                        <p>Link and Results: <a href="https://github.com/adpranav/prject_tennis.git" target="_blank">GitHub</a></p>
+                    </li>
+                    <li>
+                        <h3><span class="emoji">&#x1F697;</span> Driving Mate (Nov 22 - Ongoing)</h3>
+                        <p>Description: Application that detects distracted or drowsy driving behavior and sounds an alert to regain a driver’s focus on the road.</p>
+                        <p>Technology: Python, TensorFlow, Keras, Deep Learning (convolutional neural networks), Java</p>
+                        <p>Link and Results: <a href="https://github.com/adpranav/distracted_driver.git" target="_blank">GitHub</a></p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
